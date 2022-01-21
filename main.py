@@ -3,7 +3,7 @@
 Írj egy programot, amely tartalmaz egy 'paros_e' nevű függvényt, amely True értékkel tér vissza, ha a paraméterként átvett listaelemek (egész számok) között van páros, ellenkező esetben a visszatérési érték False! 
 A program tartalmazza a függvény hívását is!
 '''
-def paros(*nums):
+def paros_e(*nums):
     lista = [num for num in nums]
     
     for i in lista:
@@ -14,4 +14,4 @@ def paros(*nums):
     return vissza
 
 
-print(paros(1,3,5,100))
+print(paros_e(1,3,5,100))
